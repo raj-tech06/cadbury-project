@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+   }
+//    body{
+//     background:url();
+//    }
+#header1{
+   width: 100%;
+  //  box-shadow: 20px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  z-index: 999;
+  // box-shadow: #000;
+  // background: rgba(0, 0, 0, 0.5);
+   }
+  
+   .logo img{
+    width: 77%;
+    padding: 18px;
+    margin-top: 6px;
+    // background: lawngreen;
+   }
+   #head-ul-li{
+    width: 100%;
+    display: flex; 
+    // padding-right: 20%;
+    // margin-right: 21%;
+   }
+   .head-a-e-o-r-g-c{
+    // padding-right: 0%;
+    // background: red;
+    width: 100%;
+    // justify-content: space-evenly;  
+    display: flex;
+    margin-top: 50px;
+    gap: 40px;
+    font-size: 18px;
+    // font-size: 110%;
+        list-style: none;
+   }
+   .head-a-e-o-r-g-c li a{
+    color: white;
+   }
+   .head-a-e-o-r-g-c a{
+    text-decoration: none;
+   
+  }
+
+  .fa-solid{
+    // background: yellow;
+    // margin-left: 60px;
+       color: plum;
+   }
+  
+   #search-bar{
+    // background: orange;
+    width: 100%;
+    margin-left: 8%;
+    font-size: 18px;
+    margin-top: 50px;
+    color: white;
+     }
+
+     .head-a-e-o-r-g-c li a:hover{
+      border-bottom: 2px solid burlywood;
+      color: burlywood;
+
+     }
+
+    //  ================================================header end ================================================
+
+    // ============================================================div1 start======================================================
+
+#divtext1{
+  margin-left: 8%;
+  border: 2px solid rgb(19, 18, 18);
+}
+h1{
+  font-size: 450%;
+  margin-top: -39%;
+}
+.btn1{
+  font-size: 30px;
+  border: 3px solid rgb(185, 23, 23);
+  // border-radius: 78%;
+  z-index: 999;
+}
+
+// ====================================================================div1 end======================================================
+ 
+
+
+#divtext2{
+  width: 100%;
+
+}
+h2{
+  padding-top: 65px;
+  padding-bottom: 20px;
+  font-size: 330%;
+  // justify-content: center;
+  text-align: center;
+}
+.div2text1{
+  font-size: 16px;
+  text-align: center;
+}
+.div2text2{
+  padding-top: 4px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+// ========================================div3 start ====================================
+
+#div3scroll1{
+  width: 100%;
+  // height: 30vh;
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  justify-content: space-evenly;
+  // padding-bottom: 20%; 
+  
+
+
+
+}
+.scroll1{
+  width: 100%;
+  height: 65vh;
+  border: 2px solid black;
+
+  // padding-bottom: 200%;
+  margin-bottom: 30%;
+}
