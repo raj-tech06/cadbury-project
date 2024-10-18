@@ -122,19 +122,359 @@ h2{
   width: 100%;
   // height: 30vh;
   display: grid;
-  grid-template-columns: repeat(4, 300px);
+  grid-template-columns: repeat(4, 290px);
   justify-content: space-evenly;
   // padding-bottom: 20%; 
-  
-
-
 
 }
 .scroll1{
   width: 100%;
   height: 65vh;
   border: 2px solid black;
-
+border-radius: 20px;
   // padding-bottom: 200%;
   margin-bottom: 30%;
+  background: blueviolet;
+  text-align: center;
+
+}
+.scroll1 img{
+  width: 100%;
+  height: 35vh;
+  padding: 20px;
+  // position: relative;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+.scroll1 h2{
+  width: 100%;
+  font-size: 20px;
+  margin-top: -35px;
+}
+.scroll1 P{
+  width: 140PX;
+  border-radius: 20PX;
+  background: red;
+ color: white;
+ font-size: 12PX;
+  margin-top: 15PX;
+  margin-left: 20PX;
+}
+.scroll1:hover{
+  transform: scale(1.1);
+  transition: 1s;
+}
+// ==========================================================div 3 end =================================
+
+#div4text-photo{
+  background: rgba(78, 4, 107, 0.911);
+  width: 100%;
+  display: flex;
+}
+#div4text-photo img{
+  width: 50%;
+}
+#div5photo-text{
+  background: rgba(15, 3, 91, 0.89);
+  width: 100%;
+  display: flex;
+  // display: grid;
+  // grid-template-columns: repeat(2, 500px);
+
+}
+#div5photo-text img{
+  width: 50%;
+  margin-top: 4px;
+}
+// =====================================================div5 end =============================================
+#div6bk{
+  width: 100%;
+}
+#div6bk img{
+  width: 100%;
+}
+.div6bktext1{
+  width: 100%;
+  // margin-left: 45%;
+  text-align: center;
+  margin-top: -35%;
+  font-size: 20px;
+}
+.div6bktext2{
+  width: 100%;
+  font-size: 45px;
+  margin-top: 20px;
+  margin-top: -2%;
+  text-align: center;
+
+}
+.div6bktext3{
+  width: 100%;
+font-size: 18px;
+margin-top: 15px;
+text-align: center;
+
+}
+.div6btn{
+  // width: 1280px;
+  text-align: center;
+  margin-top: 6%;
+  background: gold;
+  border: 2px solid beige;
+  font-size: 20px;
+}
+// ===================================div 6 end =========================================
+#div7{
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  background: red;
+}
+#div7 img{
+  // width: 30%;
+  margin-top: 12%;
+  margin-left: 7%;
+}
+#div7 .div7-2{
+  margin-left: 52%;
+  margin-top: 20%;
+}
+.div7p1text{
+  text-align: center;
+  // margin-right: 5%;
+  margin-left: 5%;
+  font-size: xx-large;
+  margin-top: -20%;
+}
+
+
+.div7p2text{
+  text-align: center;
+  margin-left: 5%;
+  margin-top: 20px;
+}
+.div7p3text{
+  text-align: center;
+  margin-top: 30px;
+  font-size: x-large;
+  margin-left: 60px;
+}
+#div8v1{
+  width: 100%;
+
+}
+#div8v1 video{
+  width: 100%;
+}
+
+// ================================================DIV 8 END====================================
+
+
+
+#div9text{
+  width: 100%;
+  // height: 9vh;
+
+}
+#div9text img{
+  width: 10%;
+  height: 20vh;
+  margin-top: -10%;
+  // margin-bottom: 0px;
+  margin-left: 15%;
+
+}
+
+h2{
+  padding-top: 65px;
+  padding-bottom: 20px;
+  font-size: 330%;
+  // justify-content: center;
+  text-align: center;
+}
+.div9text1{
+  font-size: 16px;
+  text-align: center;
+}
+.div9text2{
+  padding-top: 4px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+
+#div9scroll{
+  width: 100%;
+  height: 20vh;
+  display: grid;
+  margin-top: 40px;
+  grid-template-columns: repeat(4, 290px);
+  justify-content: space-evenly;
+
+}
+.scroll1{
+  width: 100%;
+  height: 45vh;
+  border: 2px solid black;
+  border-radius: 20px;
+  // margin-bottom: 30%;
+  background: blueviolet;
+  text-align: center;
+
+}
+.scroll1 img{
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+  padding: 0;
+  border-radius: 20px;
+}
+
+.scroll1:hover{
+  transform: scale(1.1);
+  transition: 1s;
+}
+// =============================================================================================
+
+#div10{
+  width: 100%;
+}
+#div10 img{
+  width: 30%;
+  margin-left: 70%;
+  margin-top: 26%;
+}
+// ========================
+
+#div11img-1{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  // margin: 10px;
+  padding: 20px;
+}
+#div11img-1 img{
+  margin-top: -40%;
+}
+// #div11img-1 img:hover{
+//   transform: scale(1.5);
+// }
+.div11img-2{
+  margin-top: 45px;
+}
+// .div11img-2:hover{
+//   transform: scale(0.8);
+// }
+// =========================================================================================================
+
+
+#div13img-1{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 45%);
+  // margin: 10px;
+  padding: 20px;
+  gap: 5%;
+  margin-top: 18%;
+}
+#div13img-1 img{
+  width: 100%;
+
+  margin-top: -40%;
+}
+// #div13img-1 img:hover{
+//   transform: scale(1.5);
+// }
+.div13img-2{
+  width: 100%;
+  margin-top: 45px;
+}
+// .div13img-2:hover{
+//   transform: scale(0.8);
+// }
+// ========================================
+
+#div14text{
+  width: 100%;
+}
+.div14htext{
+  width: 100%;
+}
+.div14ptext{
+  text-align: center;
+  margin-bottom: 5%;
+
+}
+// ==========================================
+
+
+
+
+
+
+
+// =================================================
+
+
+#div16htext{
+width: 100%;
+}
+// #div16htext h2{
+
+// }
+// ==========================================
+
+
+#div16scroll{
+  width: 100%;
+  // height: 30vh;
+  display: grid;
+  grid-template-columns: repeat(4, 290px);
+  justify-content: space-evenly;
+  // padding-bottom: 20%; 
+
+}
+.scroll{
+  width: 100%;
+  height: 65vh;
+  border: 2px solid black;
+border-radius: 20px;
+  // padding-bottom: 200%;
+  margin-bottom: 30%;
+  background: blueviolet;
+  text-align: center;
+
+}
+.scroll img{
+  width: 100%;
+  height: 35vh;
+  // padding: 20px;
+  // position: relative;
+  // margin-top: 20px;
+  border-radius: 20px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.scroll h2{
+  width: 100%;
+  font-size: 20px;
+  margin-top: -35px;
+}
+.scroll:hover{
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+// ===================================================================
+
+#div17{
+  width: 100%;
+  height: 50vh;
+  background: red;
+  margin-bottom: 10%;
+}
+#div17 img{
+  width: 20%;
+  margin-left: 75%;
+  // margin-top: 20%;
 }
