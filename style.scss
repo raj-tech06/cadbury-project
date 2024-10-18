@@ -29,6 +29,7 @@
    #head-ul-li{
     width: 100%;
     display: flex; 
+
     // padding-right: 20%;
     // margin-right: 21%;
    }
@@ -36,6 +37,7 @@
     // padding-right: 0%;
     // background: red;
     width: 100%;
+    font-weight: 700;
     // justify-content: space-evenly;  
     display: flex;
     margin-top: 50px;
@@ -76,9 +78,9 @@
     //  ================================================header end ================================================
 
     // ============================================================div1 start======================================================
-#video1{
-  z-index: 999999;
-}
+// #video1{
+//   z-index: 999999;
+// }
 #div1text1{
   margin-left: 8%;
   border: 2px solid rgb(19, 18, 18);
@@ -86,6 +88,8 @@
 h1{
   font-size: 450%;
   margin-top: -39%;
+  // font-style: italic;
+  font-weight: 700;
   color: rgba(245, 242, 80, 0.977);
 }
 p{
@@ -94,12 +98,23 @@ p{
 
 }
 .btn1{
-  z-index: 99;
-  font-size: 30px;
-  margin-top: 20px;
+  width: 20%;
+  height: 7vh;
+  // z-index: 99;
+  position: relative;
+  margin-top: 30px;
   background: yellow;
-  border: 3px solid rgb(243, 243, 11);
-  // border-radius: 78%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.btn1 p{
+  color: rgb(73, 11, 128);
+  text-align: center;
+  padding: 9px;
+  font-weight: 600;
+  font-size: 19px;
 }
 
 // ====================================================================div1 end======================================================
@@ -113,7 +128,7 @@ p{
 .div2-h{
   padding-top: 65px;
   padding-bottom: 20px;
-  // color: yellow;
+  color: rgb(73, 11, 128);
   font-size: 330%;
   // justify-content: center;
   text-align: center;
@@ -143,11 +158,11 @@ p{
 .scroll1{
   width: 100%;
   height: 65vh;
-  border: 2px solid black;
+  // border: 2px solid black;
 border-radius: 20px;
   // padding-bottom: 200%;
   margin-bottom: 30%;
-  background: blueviolet;
+  background: rgb(84, 13, 146);
   text-align: center;
 
 }
@@ -167,8 +182,8 @@ border-radius: 20px;
 .scroll1 P{
   width: 140PX;
   border-radius: 20PX;
-  background: red;
- color: white;
+  background: burlywood;
+ color: rgb(73, 11, 128);
  font-size: 12PX;
   margin-top: 15PX;
   margin-left: 20PX;
@@ -179,26 +194,70 @@ border-radius: 20px;
 }
 // ==========================================================div 3 end =================================
 
-#div4text-photo{
-  background: rgba(78, 4, 107, 0.911);
+#div4{
+  background: rgb(73, 11, 128);
   width: 100%;
   display: flex;
 }
-#div4text-photo img{
+#div4 img{
   width: 50%;
 }
-#div5photo-text{
-  background: rgba(15, 3, 91, 0.89);
+.div4-h{
+  width: 90%;
+  color: white;
+  margin-left: 1%;
+  padding: 10px;
+  margin-top: 60px;
+  // text-align: center;
+  font-size: xx-large;
+}
+.div4-p{
+  width: 1000px;
+  color: black;
+  margin-top: 25%;
+  // margin-right: 7%;
+  // text-decoration: solid;
+  font-size: 20px;
+  // text-align: center;
+
+}
+#div4 img:hover{
+  transform: scale(0.9);
+
+}
+// ================================
+
+#div5{
+  background: rgb(73, 11, 128);
   width: 100%;
   display: flex;
   // display: grid;
   // grid-template-columns: repeat(2, 500px);
 
 }
-#div5photo-text img{
+#div5 img{
   width: 50%;
   margin-top: 4px;
 }
+.div5-h{
+  width: 100%;
+  font-size: xx-large;
+  text-align: center;
+  margin-top: 10%;
+}
+.div5-p{
+  width: 100%;
+  font-size: small;
+  margin-top: 15%;
+}
+
+#div5 img:hover{
+  transform: scale(0.9);
+}
+
+
+
+
 // =====================================================div5 end =============================================
 #div6bk{
   width: 100%;
@@ -206,14 +265,14 @@ border-radius: 20px;
 #div6bk img{
   width: 100%;
 }
-.div6bktext1{
+.div6bk-h{
   width: 100%;
   // margin-left: 45%;
   text-align: center;
   margin-top: -35%;
   font-size: 20px;
 }
-.div6bktext2{
+.div6bk-h2{
   width: 100%;
   font-size: 45px;
   margin-top: 4%;
@@ -221,7 +280,7 @@ border-radius: 20px;
   text-align: center;
 
 }
-.div6bktext3{
+.div6bk-p{
   width: 100%;
 font-size: 18px;
 margin-top: 3%;
@@ -229,19 +288,24 @@ text-align: center;
 
 }
 .div6btn{
-  // width: 1280px;
+  width: 180px;
   text-align: center;
   margin-top: 6%;
+  margin-left: 42%;
   background: gold;
+  border-radius: 20px;
+  font-weight: 700;
+  padding: 5px;
   border: 2px solid beige;
   font-size: 20px;
+  position: relative;
 }
 // ===================================div 6 end =========================================
 #div7{
   width: 100%;
   height: 80vh;
   display: flex;
-  background: red;
+  background:rgb(75, 10, 131);
 }
 #div7 img{
   width: 30%;
@@ -257,7 +321,8 @@ text-align: center;
   text-align: center;
   // margin-right: 5%;
   margin-left: 5%;
-  font-size: xx-large;
+  font-size: 40px;
+  font-weight: 700;
   margin-top: -28%;
 }
 
@@ -267,12 +332,18 @@ text-align: center;
   margin-left: 5%;
   margin-top: 40px;
 }
-.div7p3text{
+.div7p3-btn{
+  width: 10%;
+  margin-left: 45%;
   text-align: center;
+  background: rgb(248, 180, 32);
   margin-top: 60px;
   font-size: x-large;
+  border-radius: 20px;
+  padding: 5px;
+  font-weight: 700;
   margin-bottom: 20px;
-  margin-left: 60px;
+  // margin-left: 60px;
 }
 // ===================================================
 #div8v1{
@@ -349,7 +420,7 @@ text-align: center;
 
 .scroll2:hover{
   transform: scale(1.1);
-  transition: 1s;
+  transition: 0.8s;
 }
 // =============================================================================================
 
@@ -358,30 +429,35 @@ text-align: center;
 }
 #div10 img{
   width: 30%;
+
   margin-left: 70%;
-  margin-top: 26%;
+  margin-top: 18%;
 }
 // ========================
 
 #div11img-1{
   width: 100%;
+  // border-radius: 30%;
   display: grid;
+  // border: 2px solid black;
   grid-template-columns: repeat(2, 50%);
   // margin: 10px;
   padding: 20px;
 }
 #div11img-1 img{
+  border-radius: 4%;
+  // border: 2px solid purple;
+  // border-radius: 20px;
   margin-top: -40%;
 }
-// #div11img-1 img:hover{
-//   transform: scale(1.5);
-// }
+
 .div11img-2{
   margin-top: 45px;
 }
-// .div11img-2:hover{
-//   transform: scale(0.8);
-// }
+#div11img-1 img:hover{
+  transform: scale(1.1);
+  transition: 1s;
+}
 // =========================================================================================================
 
 
@@ -396,7 +472,7 @@ text-align: center;
 }
 #div13img-1 img{
   width: 100%;
-
+  border-radius: 4%;
   margin-top: -40%;
 }
 // #div13img-1 img:hover{
@@ -411,21 +487,23 @@ text-align: center;
 // }
 // ========================================
 
-#div14text{
+#div14{
   width: 100%;
 }
-.div14htext{
+.div14-h2{
   width: 100%;
     padding-top: 65px;
     padding-bottom: 20px;
+    color: black;
     // color: yellow;
     font-size: 330%;
     // justify-content: center;
     text-align: center;
 }
-.div14ptext{
+.div14-p{
+  color: #000;
   text-align: center;
-  margin-bottom: 5%;
+  // margin-bottom: 5%;
 }
 // ==========================================
 
@@ -464,7 +542,7 @@ width: 100%;
 .scroll-3{
   width: 100%;
   height: 65vh;
-  border: 2px solid black;
+  // border: 2px solid black;
 border-radius: 20px;
   // padding-bottom: 200%;
   margin-bottom: 30%;
@@ -482,12 +560,12 @@ border-radius: 20px;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
-.scroll h2{
+.div16scroll-h2{
   width: 100%;
   font-size: 20px;
-  margin-top: -35px;
+  margin-top: 15px;
 }
-.scroll:hover{
+.scroll-3:hover{
   transform: scale(1.1);
   transition: 1s;
 }
@@ -567,6 +645,7 @@ border-radius: 20px;
 .footp{
   width: 100%;
   margin-top: 22px;
+  color:black
   // padding: 20px;
 }
 
@@ -587,7 +666,7 @@ border-radius: 20px;
 }
 .foot-li-stmt a{
   width: 100%;
-  color: purple;
+  color: rgb(73, 11, 128);
   text-decoration: none;
 }
 .foot-li-stmt a:hover{
@@ -607,7 +686,7 @@ border-radius: 20px;
 
 }
 .foot-li-stmt-2 a{
-  color: purple;
+  color: rgb(73, 11, 128);
   text-decoration: none;
   font-size: 62%;
 }
