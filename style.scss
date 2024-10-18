@@ -271,12 +271,12 @@ text-align: center;
 
 
 
-#div9text{
+#div9text2{
   width: 100%;
   // height: 9vh;
 
 }
-#div9text img{
+#div9text2 img{
   width: 10%;
   height: 20vh;
   margin-top: -10%;
@@ -285,14 +285,14 @@ text-align: center;
 
 }
 
-h2{
+.div9htext h2{
   padding-top: 65px;
   padding-bottom: 20px;
   font-size: 330%;
   // justify-content: center;
   text-align: center;
 }
-.div9text1{
+.div9text2{
   font-size: 16px;
   text-align: center;
 }
@@ -303,7 +303,7 @@ h2{
 }
 
 
-#div9scroll{
+#div9scroll2{
   width: 100%;
   height: 20vh;
   display: grid;
@@ -312,7 +312,7 @@ h2{
   justify-content: space-evenly;
 
 }
-.scroll1{
+.scroll2{
   width: 100%;
   height: 45vh;
   border: 2px solid black;
@@ -322,7 +322,7 @@ h2{
   text-align: center;
 
 }
-.scroll1 img{
+.scroll2 img{
   width: 100%;
   height: 100%;
   margin-top: 0;
@@ -330,7 +330,7 @@ h2{
   border-radius: 20px;
 }
 
-.scroll1:hover{
+.scroll2:hover{
   transform: scale(1.1);
   transition: 1s;
 }
@@ -471,10 +471,73 @@ border-radius: 20px;
   width: 100%;
   height: 50vh;
   background: red;
-  margin-bottom: 10%;
+  // margin-bottom: 10%;
 }
 #div17 img{
   width: 20%;
   margin-left: 75%;
   // margin-top: 20%;
+}
+// ========================================================================17 end=================================
+
+#div18{
+  width: 100%;
+}
+#div18 img{
+  width: 30%;
+  margin-top: 40px;
+  margin-bottom: 45px;
+}
+// .hrline{
+//   color: black;
+//   background: red;
+// }
+// ================================================
+
+#foot{
+  width: 100%;
+  display: flex;
+  // display: grid;
+  // grid-template-columns: repeat(8,120%);
+}
+.footp{
+  width: 100%;
+}
+.foot-li{
+  width: 100%;
+  display: flex;
+  // justify-content: space-evenly;
+  // margin-right: 2%;
+  margin-top: 5px;
+
+}
+.foot-li-stmt{
+  width: 90px;
+  margin-left: 50px;
+  list-style: none;
+  font-size: 10px;
+}
+.foot-li-stmt a{
+  width: 100%;
+  color: purple;
+  text-decoration: none;
+}
+.foot-li-stmt a:hover{
+  border-bottom: 2px solid rgb(177, 41, 177);
+}
+// =============================================================
+#foot-li-1{
+  width: 100%;
+  display: flex;
+}
+.foot-li-stmt-2{
+  // width: 100%;
+  list-style: none;
+  margin-left: 20px;
+  // justify-content: space-evenly;
+
+}
+.foot-li-stmt-2 a{
+  text-decoration: none;
+  font-size: 10px;
 }
