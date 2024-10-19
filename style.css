@@ -66,6 +66,7 @@
   border: none;
   font-size: 15px;
   cursor: pointer;
+  transition: 1s ease;
 }
 
 .btnabout:hover {
@@ -99,6 +100,15 @@
   padding: 5px;
   text-decoration: none;
   padding: 20px 40px;
+}
+
+header .menu {
+  font-size: 2.5em;
+  display: none;
+}
+
+#check1 {
+  display: none;
 }
 
 #div1text1 {
@@ -558,9 +568,14 @@ p {
   margin-bottom: 45px;
 }
 
-#div19 i {
+#div19 {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  gap: 50px;
+  margin-top: -100px;
   font-size: 30px;
-  margin-left: 90%;
+  margin-bottom: 7%;
 }
 
 #foot {
@@ -617,4 +632,32 @@ p {
 
 .foot-li-stmt-2 a:hover {
   border-bottom: 2px solid rgb(177, 41, 177);
+}
+
+@media (max-width: 431px) {
+  header ul {
+    position: fixed;
+    top: 100px;
+    right: -100%;
+    background: rgba(0, 0, 0, 0.5);
+    height: calc(100vh - 100px);
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    transition: right 0.5s linear;
+  }
+  header .menu {
+    display: block;
+    width: 100px;
+    text-align: center;
+  }
+  #check1:checked ~ ul {
+    right: 0;
+  }
+  .foot {
+    display: block;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
 }/*# sourceMappingURL=style.css.map */
