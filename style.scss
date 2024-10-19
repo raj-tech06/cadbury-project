@@ -120,9 +120,7 @@
   
 
 }
-.dropdown-start-1 p{
-  width: 100%;
-}
+
 
   .dropdown-1:hover .dropdown-options-1 {
     display: block;
@@ -141,21 +139,26 @@
     padding:20px 40px;
   }
 
-// .dropdown-start-1 a:hover{
+// .dropdown-start-1 p{
 //   width: 10%;
 //   // display: none;
 //   color: aqua;
-//   // margin-left: 9%;
-//   transition: 4s;
  
 //   }
 
-  // .dropdown-opt a:hover { KHALI DIV KO CLS DENE PAR USE
-  //   color: red;
-  //   // display: flex;
-  //   background-color: #ca0a0a;
-  //   border-radius:5px;
-  // }
+.dropdown-opt{
+  width: 100%;
+  padding: 25px;
+  margin-bottom: 30%;
+  // justify-content: center;
+  // text-align: center;
+}
+  .dropdown-opt .p-1{ 
+    color: black;
+  }
+  .dropdown-opt .p-2{ 
+    color: white;
+  }
 
   // ================================================================================================2ND TEXT START ===============================================
 
@@ -217,21 +220,23 @@
     text-decoration: none;
     padding:20px 40px;
   }
+  .dropdown-opt{
+    width: 100%;
+    padding: 25px;
+    margin-bottom: 30%;
+    // justify-content: center;
+    // text-align: center;
+  }
+    .dropdown-opt .p-1{ 
+      color: black;
+    }
+    .dropdown-opt .p-2{ 
+      color: white;
+    }
+  
 
-// .dropdown-start-2 a:hover{
-//   width: 10%;
-//   // display: none;
-//   color: aqua;
-//   // margin-left: 9%;
- 
-//   }
 
-  // .dropdown-opt a:hover {
-  //   color: red;
-  //   // display: flex;
-  //   background-color: #ca0a0a;
-  //   border-radius:5px;
-  // }
+
 // ============================================================================================================3RD TEXT START==================================================
 
     
@@ -265,12 +270,9 @@
   // dropdown-option
   
 .dropdown-start-3{
-  margin-top: 40%;
+  margin-top: 25%;
   padding-top: 20%;
-  font-size: 10px;
-  // gap: 6%;
-  // width: 120%;
-  // display: flex;
+  // font-size: 0px;
   display: grid;
   grid-template-columns: repeat(5,200px);
   overflow: auto;
@@ -285,31 +287,22 @@
     // transition: 3s;
   }
   
-  .dropdown-options-3 a {
-    // display: none;
-    display: block;
-    color: #000000;
-    padding: 5px;
-    text-decoration: none;
-    padding:20px 40px;
+
+
+  .dropdown-opt{
+    width: 100%;
+    padding: 25px;
+    // margin-bottom: 30%;
+    // justify-content: center;
+    // text-align: center;
   }
-
-// .dropdown-start-3 a:hover{
-//   width: 10%;
-//   // display: none;
-//   color: aqua;
-//   // margin-left: 9%;
- 
-//   }
-
-  // .dropdown-opt a:hover {
-  //   color: red;
-  //   // display: flex;
-  //   background-color: #ca0a0a;
-  //   border-radius:5px;
-  // }
-
-
+    .dropdown-opt .p-1{ 
+      color: black;
+    }
+    .dropdown-opt .p-2{ 
+      color: white;
+    }
+  
 
 
 // ===================================================================checkbox start=======================================

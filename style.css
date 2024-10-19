@@ -89,10 +89,6 @@
   box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
 }
 
-.dropdown-start-1 p {
-  width: 100%;
-}
-
 .dropdown-1:hover .dropdown-options-1 {
   display: block;
 }
@@ -103,6 +99,20 @@
   padding: 5px;
   text-decoration: none;
   padding: 20px 40px;
+}
+
+.dropdown-opt {
+  width: 100%;
+  padding: 25px;
+  margin-bottom: 30%;
+}
+
+.dropdown-opt .p-1 {
+  color: black;
+}
+
+.dropdown-opt .p-2 {
+  color: white;
 }
 
 .btnEXPLORE {
@@ -146,6 +156,20 @@
   padding: 20px 40px;
 }
 
+.dropdown-opt {
+  width: 100%;
+  padding: 25px;
+  margin-bottom: 30%;
+}
+
+.dropdown-opt .p-1 {
+  color: black;
+}
+
+.dropdown-opt .p-2 {
+  color: white;
+}
+
 .btnOUR-PRODUCTS {
   margin-top: 2px;
   border: none;
@@ -165,9 +189,8 @@
 }
 
 .dropdown-start-3 {
-  margin-top: 40%;
+  margin-top: 25%;
   padding-top: 20%;
-  font-size: 10px;
   display: grid;
   grid-template-columns: repeat(5, 200px);
   overflow: auto;
@@ -180,12 +203,17 @@
   display: block;
 }
 
-.dropdown-options-3 a {
-  display: block;
-  color: #000000;
-  padding: 5px;
-  text-decoration: none;
-  padding: 20px 40px;
+.dropdown-opt {
+  width: 100%;
+  padding: 25px;
+}
+
+.dropdown-opt .p-1 {
+  color: black;
+}
+
+.dropdown-opt .p-2 {
+  color: white;
 }
 
 header .menu {
