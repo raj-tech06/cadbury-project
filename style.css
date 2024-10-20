@@ -802,44 +802,41 @@ p {
   }
   #video1 {
     position: relative;
-    width: 150%;
+    width: 300%;
   }
   #div1text1 {
     position: relative;
   }
   h1 {
     display: block;
-    margin-top: -45%;
+    margin-top: -115%;
   }
   .div2-h {
-    text-align: center;
-    margin-left: 38%;
+    margin-left: 118%;
   }
   .div2text1 {
-    justify-content: center;
-    text-align: center;
-    margin-left: 35%;
+    margin-left: 135%;
   }
   .div2text2 {
-    margin-left: 35%;
+    margin-left: 135%;
   }
   #div3scroll1 {
     gap: 25px;
-    padding-left: 5px;
+    padding-left: 45px;
     display: grid;
-    grid-template-columns: repeat(2, 500px);
+    grid-template-columns: repeat(2, 550px);
   }
   #div4 {
-    width: 135%;
+    width: 295%;
     margin-top: -12%;
     margin-left: 3px;
   }
   #div5 {
-    width: 135%;
+    width: 295%;
     margin-left: 3px;
   }
   #div6bk {
-    width: 135%;
+    width: 295%;
     margin-top: 2%;
     margin-bottom: 4%;
     margin-left: 3px;
@@ -848,74 +845,80 @@ p {
     font-size: 80%;
   }
   #div7 {
-    width: 135%;
+    width: 295%;
   }
   .div7p1text {
-    margin-left: 48%;
-    margin-bottom: 20%;
+    margin-left: 148%;
+    margin-bottom: -2%;
   }
   .div7p2text {
-    margin-left: 50%;
-    margin-top: -20%;
+    margin-left: 150%;
+    margin-top: -140%;
   }
   .div7p3-btn {
-    margin-left: 65%;
-    margin-top: 3px;
+    margin-left: 150%;
+    margin-top: 42px;
     width: 20%;
   }
   #div8v1 video {
-    width: 135%;
+    width: 295%;
     margin-top: 3%;
   }
   #div9text2 {
-    margin-left: 18%;
+    margin-left: 118%;
   }
   #div9scroll2 {
     gap: 25px;
-    padding-left: 5px;
+    padding-left: 45px;
     margin-bottom: 70%;
     display: grid;
-    grid-template-columns: repeat(2, 500px);
+    grid-template-columns: repeat(2, 550px);
   }
   #div10 {
-    width: 135%;
-    margin-top: -13%;
+    width: 295%;
+    margin-top: 99%;
   }
   #div11img-1 {
-    width: 142%;
+    width: 292%;
   }
   #div13img-1 {
-    margin-top: 30%;
-    width: 142%;
+    margin-top: 80%;
+    width: 292%;
   }
   .div14-h2 {
-    margin-left: 15%;
+    margin-top: 20%;
+    margin-left: 95%;
   }
   .div14-p {
-    margin-left: 30%;
+    margin-left: 140%;
+  }
+  #div16htext {
+    margin-left: 100%;
   }
   #div16scroll {
     gap: 35px;
-    padding-left: 20px;
+    padding-left: 45px;
     display: grid;
     grid-template-columns: repeat(2, 550px);
   }
   #div17 {
-    width: 153%;
+    width: 293%;
   }
   #div17 img {
-    margin: 16%;
+    margin: 10%;
     margin-left: 43%;
   }
   #div19 {
     justify-content: center;
-    margin-left: 70%;
+    margin-left: 195%;
   }
   #foot {
     width: 100%;
+    margin-left: 70%;
   }
   #footp {
     width: 100%;
+    margin-left: 30%;
   }
   #foot-li {
     width: 100%;
