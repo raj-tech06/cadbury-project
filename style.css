@@ -233,7 +233,7 @@
   color: white;
 }
 
-header .menu {
+#header1 .menu {
   font-size: 2.5em;
   display: none;
 }
@@ -310,8 +310,8 @@ p {
 #div3scroll1 {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(4, 290px);
-  justify-content: space-evenly;
+  grid-template-columns: repeat(auto-fill, 290px);
+  justify-content: center;
 }
 
 .scroll1 {
@@ -550,8 +550,8 @@ p {
   height: 20vh;
   display: grid;
   margin-top: 40px;
-  grid-template-columns: repeat(4, 290px);
-  justify-content: space-evenly;
+  grid-template-columns: repeat(auto-fill, 290px);
+  justify-content: center;
 }
 
 .scroll2 {
@@ -671,8 +671,8 @@ p {
 #div16scroll {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(4, 290px);
-  justify-content: space-evenly;
+  grid-template-columns: repeat(auto-fill, 290px);
+  justify-content: center;
 }
 
 .scroll-3 {
@@ -791,9 +791,12 @@ p {
 }
 
 @media (max-width: 426px) {
-  #check:checked ~ #header1 {
-    overflow-x: hidden;
-    display: none;
+  #check1 {
+    display: block;
+    z-index: 999999;
+  }
+  #check1:checked ~ #header1 {
+    display: block;
     left: 0;
     transition: left 1s;
   }
@@ -819,12 +822,6 @@ p {
   }
   .div2text2 {
     margin-left: 135%;
-  }
-  #div3scroll1 {
-    gap: 25px;
-    padding-left: 45px;
-    display: grid;
-    grid-template-columns: repeat(2, 550px);
   }
   #div4 {
     width: 295%;
@@ -867,13 +864,6 @@ p {
   #div9text2 {
     margin-left: 118%;
   }
-  #div9scroll2 {
-    gap: 25px;
-    padding-left: 45px;
-    margin-bottom: 70%;
-    display: grid;
-    grid-template-columns: repeat(2, 550px);
-  }
   #div10 {
     width: 295%;
     margin-top: 99%;
@@ -894,12 +884,6 @@ p {
   }
   #div16htext {
     margin-left: 100%;
-  }
-  #div16scroll {
-    gap: 35px;
-    padding-left: 45px;
-    display: grid;
-    grid-template-columns: repeat(2, 550px);
   }
   #div17 {
     width: 293%;
